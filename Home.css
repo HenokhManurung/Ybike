@@ -1,0 +1,166 @@
+.backgroundColor{
+    background-color:rgba(35, 35, 33, 1);
+    margin: 0px;
+}
+
+.imgLogo{
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+ 
+}
+.displayNavbar0{
+   
+    background-color: black;
+
+}
+
+.displayNavbar1{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 30px;
+    margin-right: 200px;
+    display: flex;
+    justify-content: space-between;
+        align-items: center;
+}
+.logoNavbar{
+    width: 60px;
+    height: 60px;
+    
+}
+.textNavbar{
+    color: white;
+}
+.textNavbar1{
+    text-decoration: none;
+    color: white;
+}
+
+.LogoBesar{
+    width: 50px;
+    height: 15px;
+    margin-top: 5px ; 
+    margin-bottom : 5px;
+    
+}
+.display0{
+    bottom: 0;
+    left: 0;
+    position: sticky;
+    background-color: black;
+    
+    width: 100%;
+}
+
+.displayFlex1{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.displayFlex2{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+
+.AboutUs{
+    
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    border-width: 3px;
+    border-color: white;
+    border-style: solid;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 50px;
+    margin-bottom: 50px;
+   
+}
+
+.AboutUsContent{
+    background-color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+.AboutUsLogo0{
+   margin-left: 10px;
+   margin-right: 10px;
+}
+.AboutUsLogo{
+    height: 180px;
+    width: 120px;
+}
+.textAlignCenter{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.textMarginAboutUs{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.textAlignCenter2{
+    text-align: center;
+    font-size: 20px;
+    
+}
+
+
+
+.slideContainer {
+    width: 200%;
+    display: flex;
+    position: relative;
+ 
+}
+.imageFrame {
+    width: 100%;
+    height: 800px;
+    overflow-x:hidden;   
+}
+
+.imageSlider {
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.slide {
+    width: 100%;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#img1{
+    background-image: url('./AssetHci/IMgslider2.jpg');
+}
+
+
+#img2{
+    background-image: url('./AssetHci/imgSLifer1.jpg');
+}
+
+#img3{
+    background-image: url('./AssetHci/kawasako2.png');
+}
+
+#img4{
+    background-image: url('./AssetHci/kawasako2.pngg');
+}
+

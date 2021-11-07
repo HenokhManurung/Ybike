@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Gallery.css">
+</head>
+<body class="Body">
+     <!-- Navbar -->
+     <nav class="displayNavbar0">
+        <!-- Ybike pendek -->
+        <div class="displayNavbar1">
+
+            <div>
+              
+                <a href="Home.html">  <img src="AssetHCI/Logo Kecil Terang fix 1.png" alt="" class="logoNavbar"></a>
+            </div>
+    
+            <div class="textNavbar">
+                <a href="./Home.html" class="textNavbar1">Product</a>
+            </div>
+    
+            <div class="textNavbar">
+                <a href="Gallery.html" class="textNavbar1">Gallery</a> 
+            </div>
+    
+            <div class="textNavbar">
+                Reserve
+            </div>
+        </div>
+    </nav>
+
+    <div class="reserveContainer" id="reserve">
+        <form class="reserveForm">
+            <h3>Reserve Form</h3>
+            <input type="text" name="" id="nameTxt" placeholder="Name"> <br>
+
+            <input type="text" name="" id="phoneTxt" placeholder="Phone Number"><br>
+
+            <input type="text" name="" id="addressTxt" placeholder="Address"><br>
+     
+            Product <select name="" id="productTxt">
+                <option value="">Choose Product</option>
+                <option value="XX">Vixion XX</option>
+                <option value="XY">Vixion XY</option>
+                <option value="XZ">Vixion XZ</option>
+            </select> <br>
+        
+            <input type="text" name="" id="quantityTxt" placeholder="Quantity"><br>
+            
+            Color
+            <div class="selection">
+            <input type="radio" name="color" id="blackColor" placeholder="Black">Black  
+            <input type="radio" name="color" id="whiteColor" placeholder="White">White 
+            </div>
+          
+            <br>
+
+            <input type="submit" value="Reservation" id="reserveBtn">
+
+            <div id="error"></div>
+        </form>
+    </div>
+
+    <!-- Footer -->
+    <div class="display0">
+            
+        <div class="displayFlex1">
+            <!-- logo yBike -->
+            <div >
+                <p>
+                    <img src="AssetHCI/Nama Logo terang fix 1.png" alt="" class="LogoBesar">
+                </p>
+            </div>
+        
+            <!-- Logo Sosial Media -->
+            <div class="displayFlex2">
+                <!-- twitter -->
+                <p>
+                    <p >
+                        <img src="AssetHCI/TwitterLogo.png" alt="" class="imgLogo">
+                    </p>
+                </p>
+                
+                <!-- Facebook -->
+                <p>
+                    <p class="imgLogo">
+                        <img src="AssetHCI/facebookLogo.png" alt="" class="imgLogo">
+                    </p>
+                </p>
+            
+                <!-- instagram -->
+                <p>
+                    <p class="imgLogo">
+                        <img src="AssetHCI/InstagramLogo.png" alt="" class="imgLogo">
+                    </p>
+                </p>
+            
+            </div>
+        </div>
+    </div>
+    <script src="./Script.js"></script>
+</body>
+</html>
